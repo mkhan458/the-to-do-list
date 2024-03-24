@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 
-// Setup the PostgreSQL client using the connection URL from the .env file
+// Setup the PostgreSQL client  using the connection URL from the .env file
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
 });
